@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "764621937468",
+    "firebase_url": "https://myoffice-48b81.firebaseio.com",
+    "project_id": "myoffice-48b81",
+    "storage_bucket": "myoffice-48b81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764621937468:android:51fe25e0afa65af6",
+        "android_client_info": {
+          "package_name": "com.example.zoir.myoffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764621937468-on68gdl1k5u3fl4542fbnrt1gbm2fqv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zoir.myoffice",
+            "certificate_hash": "780cea65adfbd98561190ee225eb3361ee082f77"
+          }
+        },
+        {
+          "client_id": "764621937468-26ps6p76449t69lc689nrg18hi8004jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGamjOYheqDgskZFtb2JApEDHDsFEf-6I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764621937468-26ps6p76449t69lc689nrg18hi8004jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

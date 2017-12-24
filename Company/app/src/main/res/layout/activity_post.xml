@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zoir.company.PostActivity">
+
+    <ImageView
+        android:id="@+id/imageSelect"
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/but" />
+
+    <EditText
+        android:id="@+id/titleField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Post Title.."
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:layout_below="@+id/imageSelect"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/deskField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="Post Description..."
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:layout_below="@+id/titleField"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/subBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?attr/colorPrimary"
+        android:padding="20dp"
+        android:text="Submit Post"
+        android:textColor="@color/cardview_light_background" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zoir.message.MainActivity">
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:hint="Password.."
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/senderField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/passwordField"
+        android:layout_alignLeft="@+id/passwordField"
+        android:layout_alignStart="@+id/passwordField"
+        android:layout_marginBottom="65dp"
+        android:ems="10"
+        android:hint="Sender Email.."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/acceptField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordField"
+        android:layout_alignStart="@+id/passwordField"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Accepter Email..."
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/sndBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acceptField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="send" />
+</RelativeLayout>
